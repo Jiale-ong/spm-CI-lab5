@@ -1,4 +1,4 @@
-import flask, time
+import flask
 
 app = flask.Flask(__name__)
 
@@ -7,4 +7,4 @@ app = flask.Flask(__name__)
 def index():
     name = "SPM Rejects"
 
-    return "Welcome!!! " + name + " ",time.localtime
+    return "Welcome!!! " + name + " "
